@@ -11,6 +11,7 @@
 @implementation BinaryTreeTest
 + (void)test
 {
+    
     BinaryTreeNode *rootNode = [BinaryTreeNode createTreeWithValues:@[@13,@7,@10,@12,@11,@9,@34,@21,@56,@20,@30,@35,@57]];
   BinaryTreeNode *indexNode = [BinaryTreeNode treeNodeAtIndex:4 inTree:rootNode];
   NSLog(@"%lu",indexNode.value);
